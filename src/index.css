@@ -11,7 +11,7 @@
 }
 
 body {
-  background: linear-gradient(230deg, #ff3867 0%, #ffc873 50%, #d37ec6 100%);
+  background: linear-gradient(230deg, #326da5 0%, #043649 50%, #15215a 100%);
   height: 100vh;
   margin: 0;
 }
@@ -24,12 +24,16 @@ section {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: rgba(43, 43, 43, 0.507) 0px 0px 10px;
+  box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 14px;
   border-radius: 10px;
 }
 
 i {
   margin: 6px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .center {
@@ -43,7 +47,7 @@ i {
   width: 100%;
   height: 180px;
   object-fit: cover;
-  object-position: top center;
+  object-position: top end;
   overflow: hidden;
   border-bottom: #54a2e6 solid 5px;
 }
@@ -60,6 +64,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.623) 0px 3px 12px;
 }
 
 .profile-container > img {
