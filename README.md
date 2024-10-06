@@ -4,19 +4,20 @@
 
 ## Datos
 
-- 🦄 **Desarrollador/a:** *Nombre*
-- 🐇 **Link a red social:** *https://twitter.com/nombre*
-- 🦾 **Perfil:** *Novato / Bajo / Medio / Avanzado / Experto*
-- 💬 **Un comentario breve o frase ingeniosa**: *-*
+- 🦄 **Desarrollador/a:** Bellic
+- 🐇 **Link a red social:** *https://twitter.com/BellicDev*
+- 🦾 **Perfil:** _Bajo_
+- 💬 **Un comentario breve o frase ingeniosa**: _-_
 
 ## Observaciones
 
-*Escribe aquí tus observaciones sobre la implementación*
+_Escribe aquí tus observaciones sobre la implementación_
 
 > Puedes encontrar otros retos de Manz.dev en: <br>▶ https://lenguajejs.com/retos/
 
 ---
-*Puedes borrar todo desde esta línea en adelante*
+
+_Puedes borrar todo desde esta línea en adelante_
 
 ---
 
