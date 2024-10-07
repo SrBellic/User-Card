@@ -1,16 +1,3 @@
 {
-  "version": 2,
-  "public": true,
-  "builds": [
-    {
-      "src": "src/index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/fonts/(.*)",
-      "dest": "/public/fonts/$1"
-    }
-  ]
+  "public": true
 }
