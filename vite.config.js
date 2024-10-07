@@ -3,7 +3,8 @@ import path from "node:path";
 
 const isGitHubPages = true;
 const folderName = `${path.basename(process.cwd())}/`;
-const mode = process.env.NODE_ENV === "production" ? "production" : "development";
+const mode =
+  process.env.NODE_ENV === "production" ? "production" : "development";
 const base = mode === "production" && isGitHubPages ? `/${folderName}` : "/";
 
 export default defineConfig({
@@ -14,11 +15,24 @@ export default defineConfig({
   publicDir: "../public",
   resolve: {
     alias: {
-      "@": new URL("./src", import.meta.url).pathname
-    }
+      "@": new URL("./src", import.meta.url).pathname,
+    },
   },
   build: {
     outDir: "../dist",
-    assetsDir: "./"
-  }
+    assetsDir: "./",
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "src/index.html"),
+      },
+      output: {
+        assetFileNames: ({ name }) => {
+          if (/fonts/.test(name)) {
+            return "fonts/[name].[ext]";
+          }
+          return "[name].[ext]";
+        },
+      },
+    },
+  },
 });
