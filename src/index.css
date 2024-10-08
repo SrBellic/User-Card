@@ -177,4 +177,9 @@ header > .profile-container {
   section {
     max-width: 90%;
   }
+
+  .btn-follow {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
