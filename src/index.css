@@ -161,3 +161,9 @@ a {
 .info-detail {
   color: #000;
 }
+
+@media (max-width: 570px) {
+  section {
+    max-width: 80%;
+  }
+}
