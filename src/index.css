@@ -168,8 +168,13 @@ header > .profile-container {
 }
 
 @media (max-width: 450px) {
+  body {
+    height: max-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   section {
     max-width: 90%;
-    max-height: 800px;
   }
 }
