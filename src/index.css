@@ -101,6 +101,7 @@ header > .profile-container {
   text-shadow: 2px 2px 5px rgba(129, 129, 129, 0.5);
   text-align: center;
   margin: 40px 0 0 0;
+  padding-top: 10px;
 }
 
 .location {
@@ -166,10 +167,8 @@ header > .profile-container {
 }
 
 @media (max-width: 450px) {
-  body {
-    height: 1080px;
-  }
   section {
     max-width: 90%;
+    max-height: 1000px;
   }
 }
