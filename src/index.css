@@ -162,7 +162,7 @@ a {
   color: #000;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 450px) {
   section {
     max-width: 70%;
   }
