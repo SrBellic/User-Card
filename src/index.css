@@ -111,8 +111,7 @@ a {
   font-family: "Montserrat";
   font-size: 1.125em;
   color: #555555;
-  text-align: justify;
-  margin: auto 40px auto 40px;
+  margin: auto 20px auto 20px;
 }
 
 .btn-follow {
@@ -163,8 +162,10 @@ a {
 }
 
 @media (max-width: 450px) {
+  body {
+    height: 1080px;
+  }
   section {
-    max-width: 80%;
-    max-height: 1080px;
+    max-width: 90%;
   }
 }
