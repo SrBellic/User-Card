@@ -164,6 +164,6 @@ a {
 
 @media (max-width: 450px) {
   section {
-    max-width: 70%;
+    max-width: 360px;
   }
 }
