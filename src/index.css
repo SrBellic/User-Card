@@ -178,6 +178,10 @@ header > .profile-container {
     max-height: max-content;
   }
 
+  .img-header {
+    height: 165px;
+  }
+
   .btn-follow {
     margin-top: 15px;
     margin-bottom: 15px;
