@@ -169,13 +169,13 @@ header > .profile-container {
 
 @media (max-width: 450px) {
   body {
-    height: max-content;
     padding-top: 20px;
     padding-bottom: 20px;
   }
 
-  section {
-    max-width: 90%;
+  article {
+    max-width: 100%;
+    max-height: max-content;
   }
 
   .btn-follow {
